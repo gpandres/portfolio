@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrés González - ASIR Student & SysAdmin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sistema de coordenadas de red -->
+    <div class="network-grid"></div>
+    
+    <!-- Navegación minimalista -->
+    <nav class="nav-minimal">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <span class="brand-symbol">AG</span>
+                <span class="brand-text">Andrés González</span>
+            </div>
+            <div class="nav-links">
+                <a href="#terminal" class="nav-item active">Terminal</a>
+                <a href="#profile" class="nav-item">Profile</a>
+                <a href="#work" class="nav-item">Work</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="es">🇪🇸 ES</option>
+                    <option value="en">🇺🇸 EN</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Terminal Principal -->
+    <section id="terminal" class="terminal-section particles">
+        <div class="terminal-container">
+            <div class="terminal-header">
+                <div class="terminal-controls">
+                    <span class="control-dot red"></span>
+                    <span class="control-dot yellow"></span>
+                    <span class="control-dot green"></span>
+                </div>
+                <div class="terminal-title">andres@linux:~$</div>
+            </div>
+            
+            <div class="terminal-body">
+                <div class="terminal-content" id="terminal-output">
+                    <!-- El contenido se genera dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perfil Profesional -->
+    <section id="profile" class="profile-section">
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-core">AG</div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">Andrés González</h1>
+                    <p class="profile-title">SysAdmin en Prácticas</p>
+                </div>
+            </div>
+            
+            <div class="profile-content">
+                <div class="profile-grid">
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <span class="card-icon">⚡</span>
+                            <h3>Competencias Principales</h3>
+                        </div>
+                        <div class="expertise-list">
+                            <div class="expertise-item">
+                                <span class="expertise-name">SysAdmin</span>
+                                <div class="expertise-level">
+                                    <div class="level-bar" data-level="75"></div>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <span class="expertise-name">Cybersecurity</span>
+                                <div class="expertise-level">
+                                    <div class="level-bar" data-level="65"></div>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <span class="expertise-name">Network Security</span>
+                                <div class="expertise-level">
+                                    <div class="level-bar" data-level="70"></div>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <span class="expertise-name">Infrastructure</span>
+                                <div class="expertise-level">
+                                    <div class="level-bar" data-level="68"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <span class="card-icon">🔧</span>
+                            <h3>Stack Actual</h3>
+                        </div>
+                        <div class="stack-grid">
+                            <div class="stack-item">
+                                <span class="stack-name">Linux</span>
+                                <span class="stack-version">Ubuntu/CentOS</span>
+                            </div>
+                            <div class="stack-item">
+                                <span class="stack-name">GPON</span>
+                                <span class="stack-version">FTTH</span>
+                            </div>
+                            <div class="stack-item">
+                                <span class="stack-name">Switches</span>
+                                <span class="stack-version">Cisco/HP</span>
+                            </div>
+                            <div class="stack-item">
+                                <span class="stack-name">Routers</span>
+                                <span class="stack-version">MikroTik</span>
+                            </div>
+                            <div class="stack-item">
+                                <span class="stack-name">Windows Servers</span>
+                                <span class="stack-version">2019/2022</span>
+                            </div>
+                            <div class="stack-item">
+                                <span class="stack-name">Network</span>
+                                <span class="stack-version">TCP/IP</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <span class="card-icon">📊</span>
+                            <h3>Métricas</h3>
+                        </div>
+                        <div class="metrics-grid">
+                            <div class="metric-item">
+                                <div class="metric-value">1+</div>
+                                <div class="metric-label">Años de Experiencia</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">80+</div>
+                                <div class="metric-label">Sistemas Gestionados</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">200+</div>
+                                <div class="metric-label">Incidencias Resueltas</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">3+</div>
+                                <div class="metric-label">Empresas Trabajadas</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">95%</div>
+                                <div class="metric-label">Tiempo de Actividad</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">24/7</div>
+                                <div class="metric-label">Disponibilidad</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabajo y Proyectos -->
+    <section id="work" class="work-section particles">
+        <div class="work-container">
+            <div class="work-header">
+                <h2 class="work-title">Experiencia Reciente</h2>
+                <p class="work-subtitle">Experiencia en empresas como técnico y sysadmin</p>
+            </div>
+            
+            <div class="work-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Jul 2024 - Sep 2024, May 2025 - Sep 2025</span>
+                            <span class="timeline-status in-progress">En Progreso</span>
+                        </div>
+                        <h3 class="timeline-title">Informático/SysAdmin</h3>
+                        <div class="timeline-location">
+                            <span class="location-icon">📍</span>
+                            <span class="location-text">San Juan del Puerto, Huelva</span>
+                        </div>
+                        <p class="timeline-description">
+                            Administración de sistemas y servidores, mantenimiento de infraestructura IT y soporte técnico a usuarios.
+                        </p>
+                        <div class="timeline-tech">
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">Windows</span>
+                            <span class="tech-tag">Servers</span>
+                            <span class="tech-tag">Support</span>
+                        </div>
+                        <div class="timeline-metrics">
+                            <div class="metric">
+                                <span class="metric-value">80+</span>
+                                <span class="metric-label">Sistemas administrados</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">5+</span>
+                                <span class="metric-label">Meses trabajados</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Mar 2024 - Jun 2024</span>
+                            <span class="timeline-status completed">Completado</span>
+                        </div>
+                        <h3 class="timeline-title">Técnico de Telecomunicaciones</h3>
+                        <div class="timeline-location">
+                            <span class="location-icon">📍</span>
+                            <span class="location-text">San Juan del Puerto, Huelva</span>
+                        </div>
+                        <p class="timeline-description">
+                            Instalación y mantenimiento de redes de fibra óptica, configuración de equipos de telecomunicaciones.
+                        </p>
+                        <div class="timeline-tech">
+                            <span class="tech-tag">GPON</span>
+                            <span class="tech-tag">FTTH</span>
+                            <span class="tech-tag">WiMAX</span>
+                            <span class="tech-tag">Switches</span>
+                            <span class="tech-tag">Routers</span>
+                        </div>
+                        <div class="timeline-metrics">
+                            <div class="metric">
+                                <span class="metric-value">100+</span>
+                                <span class="metric-label">Instalaciones realizadas</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">95%</span>
+                                <span class="metric-label">Resolución en 48h</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Jun 2023 - Sep 2023</span>
+                            <span class="timeline-status completed">Completado</span>
+                        </div>
+                        <h3 class="timeline-title">Prácticas en NOC</h3>
+                        <div class="timeline-location">
+                            <span class="location-icon">📍</span>
+                            <span class="location-text">Palermo, Italia</span>
+                        </div>
+                        <p class="timeline-description">
+                            Monitoreo de red y sistemas, gestión de incidencias en centro de operaciones de red.
+                        </p>
+                        <div class="timeline-tech">
+                            <span class="tech-tag">NOC</span>
+                            <span class="tech-tag">Monitoring</span>
+                            <span class="tech-tag">Incidents</span>
+                            <span class="tech-tag">Network</span>
+                        </div>
+                        <div class="timeline-metrics">
+                            <div class="metric">
+                                <span class="metric-value">200+</span>
+                                <span class="metric-label">Incidencias gestionadas</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">99.9%</span>
+                                <span class="metric-label">Uptime de red</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="contact-title">Let's Connect</h2>
+                <p class="contact-subtitle">Ready to discuss your infrastructure needs?</p>
+            </div>
+            
+            <div class="contact-info-stacked">
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>contact@andresgp.dev</p>
+                        <span class="contact-note">Response within 24 hours</span>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">🔗</div>
+                    <div class="contact-details">
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/andresgonp</p>
+                        <span class="contact-note">Professional network</span>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">⚡</div>
+                    <div class="contact-details">
+                        <h3>GitHub</h3>
+                        <p>github.com/gpandres</p>
+                        <span class="contact-note">Open source contributions</span>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">🌐</div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Huelva, Spain</p>
+                        <span class="contact-note">Available for remote work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-symbol">AG</span>
+                    <span class="footer-text">Andrés González</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#terminal" class="footer-link">Terminal</a>
+                    <a href="#profile" class="footer-link">Profile</a>
+                    <a href="#work" class="footer-link">Work</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Andrés González. All rights reserved.</p>
+                <p>Built with precision and attention to detail.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
