@@ -1,6 +1,4 @@
-// Portfolio Marco Silva - Terminal Interactivo
 
-// Sistema de traducciones centralizado
 const translations = {
     es: {
         // Navegación
@@ -31,7 +29,7 @@ const translations = {
             ],
             helpFooter: 'Usa el menú de navegación o desplázate para explorar secciones.',
             whoami: [
-                'Andrés González - Estudiante de ASIR',
+                'Andrés González',
                 'Especialización: Administración de Sistemas | Ciberseguridad | Redes',
                 'Estado actual: Estudiante 2º ASIR + Experiencia profesional',
                 'Ubicación: Huelva, España'
@@ -142,7 +140,7 @@ const translations = {
         },
         // Footer
         footer: {
-            copyright: '© 2024 Andrés González. Todos los derechos reservados.',
+            copyright: '© 2025 Andrés González. Todos los derechos reservados.',
             tagline: ''
         }
     },
